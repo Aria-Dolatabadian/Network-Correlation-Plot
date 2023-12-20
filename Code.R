@@ -10,7 +10,7 @@ Ex<-all$cor
 Ex<-as.data.frame(Ex)
 class(Ex)
 
-png("correlation_plot.png", width = 90, height = 70)  # Adjust width and height as needed
+png("correlation_plot.png", width = 900, height = 700)  # Adjust width and height as needed
 plot(all)
 dev.off()
 
